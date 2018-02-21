@@ -1,0 +1,12 @@
+{
+  "name":"siqbalgr/myproject",
+  "authors":[
+    {
+      "name":"Shahbaz Iqbal",
+      "email": "siqbal2@mail.greenriver.edu"
+    }
+  ],
+  "require":{
+    "bcosca/fatfree-core":"dev-master"
+  }
+}

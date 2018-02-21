@@ -1,0 +1,10 @@
+<p>{{ @student->getFirst() }} {{ @student->getLast() }}</p>
+
+<p>SID: {{ @student->getSid() }}</p>
+
+<p>GPA: {{ @student->getGpa() }}</p>
+
+<p><check if="{{ @student->getGpa() >= 2.0 }}">
+    <true>Passing</true>
+    <false>Failing</false>
+</check></p>
